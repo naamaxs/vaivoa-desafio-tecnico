@@ -5,12 +5,12 @@ Milhões de desenvolvedores usam ou usaram o ASP.NET para criar aplicativos Web.
 
 para criar uma api adiciona os pacotes do NuGet que são exigidos, abra o editor de codigo eu utilizei o Visual studio code, primeiramente abri o terminal integrado, altere os diretórios para a pasta que conterá a pasta do projeto.
 execute o comandos:
-
+```
 dotnet new webapi -o TodoApi
 cd TodoApi
 dotnet add package Microsoft.EntityFrameworkCore.InMemory
 code -r ../TodoApi
-
+```
 Quando a caixa de diálogo perguntar se você deseja adicionar os ativos necessários ao projeto, selecione Sim.
 
 REST significa Em português, Transferência de Estado Representacional. Trata-se de uma abstração da arquitetura da Web. Resumidamente, o REST consiste em princípios/regras/constraints que, quando seguidas, permitem a criação de um projeto com interfaces bem definidas. Desta forma, permitindo, por exemplo, que aplicações se comuniquem.
